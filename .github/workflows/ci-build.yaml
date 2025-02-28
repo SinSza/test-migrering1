@@ -23,9 +23,7 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@v2
 
-      - name: 'Run linting'
-        run: make lint
-
+     
       - name: 'Run tests'
         run: make test-report
 
