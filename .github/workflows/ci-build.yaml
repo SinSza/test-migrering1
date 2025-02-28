@@ -1,4 +1,8 @@
 name: CI Build App
+permissions:
+  contents: read
+  checks: write  # Required for publishing test results
+  pull-requests: write  # Required for posting comments
 
 on:
   push:
